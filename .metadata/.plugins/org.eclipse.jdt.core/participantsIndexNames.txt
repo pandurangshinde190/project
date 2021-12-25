@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/home/gloqr-dev/Desktop/pandurang/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3604336761.index
+/mycart/src/main/resources

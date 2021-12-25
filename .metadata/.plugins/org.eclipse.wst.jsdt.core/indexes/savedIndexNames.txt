@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/home/gloqr-dev/Desktop/pandurang/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+346169019.index
+3604336761.index
+3470155674.index
+561611971.index
+1254463189.index
+3965268232.index
+1319370859.index

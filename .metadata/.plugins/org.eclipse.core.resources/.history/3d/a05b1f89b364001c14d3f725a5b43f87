@@ -1,0 +1,18 @@
+package com.learn.helper;
+
+import org.hibernate.SessionFactory;
+
+public class FactoryProvider {
+	private static SessionFactory factory;
+	
+	public static SessionFactory getFactory()
+	{
+		try {
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return factory;
+	}
+}
