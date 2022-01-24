@@ -1,0 +1,46 @@
+package com.learn.servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.learn.dao.UserDao;
+import com.learn.entities.User;
+import com.learn.helper.FactoryProvider;
+
+
+public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    public LoginServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//1.set the content-type
+		response.setContentType("text/html");
+		
+		//2.get an object of printWriter
+		PrintWriter out=response.getWriter();
+		
+		//3.generate response
+		out.println("login page");
+		
+		String email = request.getParameter("email");
+		String password = request.getParameter("password");
+		
+		
+		//Validation
+		
+		//Authenticate user
+		UserDao userDao = new UserDao(FactoryProvider.getFactory());
+		User user=userDao.getUserByEmailAndPassword(email, password);
+		System.out.println(user);
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.learn.dao;
+
+import org.hibernate.SessionFactory;
+
+import com.learn.entities.User;
+
+public class UserDao {
+	private SessionFactory factory;
+
+	public UserDao(SessionFactory factory) {
+		super();
+		this.factory = factory;
+	}
+	
+	//get user by email and password
+	public User getUserByEmailAndPassword(String email,String password)
+	{
+		return null;
+	}
+}
