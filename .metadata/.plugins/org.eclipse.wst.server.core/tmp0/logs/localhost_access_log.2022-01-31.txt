@@ -8,3 +8,15 @@
 0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:22:50 -0800] "POST /mycart/LoginServlet HTTP/1.1" 200 40
 0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:22:59 -0800] "POST /mycart/LoginServlet HTTP/1.1" 302 -
 0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:22:59 -0800] "GET /mycart/login.jsp HTTP/1.1" 200 4160
+127.0.0.1 - - [31/Jan/2022:22:48:02 -0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:48:24 -0800] "GET /mycart/ HTTP/1.1" 200 2791
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:48:32 -0800] "GET /mycart/register.jsp HTTP/1.1" 200 4588
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:49:03 -0800] "POST /mycart/RegisterServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:49:03 -0800] "GET /mycart/register.jsp HTTP/1.1" 200 4878
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:49:13 -0800] "GET /mycart/login.jsp HTTP/1.1" 200 3871
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:49:31 -0800] "POST /mycart/LoginServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:49:33 -0800] "GET /mycart/normal.jsp HTTP/1.1" 200 167
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:50:04 -0800] "POST /mycart/LoginServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:50:04 -0800] "GET /mycart/admin.jsp HTTP/1.1" 200 166
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:50:33 -0800] "POST /mycart/LoginServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [31/Jan/2022:22:50:33 -0800] "GET /mycart/normal.jsp HTTP/1.1" 200 167
