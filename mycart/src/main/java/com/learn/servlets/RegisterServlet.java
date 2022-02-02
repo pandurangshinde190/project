@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 import java.io.Serializable;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,6 +16,7 @@ import org.hibernate.Transaction;
 
 import com.learn.entities.User;
 import com.learn.helper.FactoryProvider;
+
 
 public class RegisterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
