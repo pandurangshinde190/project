@@ -1,0 +1,15 @@
+
+Apr 05, 2022 21:24:41.289 NEW SESSION
+Apr 05, 2022 21:24:41.494 [8816:5008:0405/212440.713:ERROR:device_event_log_impl.cc(214)] [21:24:40.713] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 05, 2022 21:24:41.585 [8816:5008:0405/212441.584:ERROR:device_event_log_impl.cc(214)] [21:24:41.584] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+Apr 11, 2022 23:00:15.468 [8816:1652:0411/225955.158:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 11, 2022 23:00:36.44 [8816:1652:0411/230012.171:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Apr 11, 2022 23:00:36.48 [8816:5008:0411/230035.090:ERROR:device_event_log_impl.cc(214)] [23:00:34.257] USB: usb_service_win.cc:260 Failed to get device driver name: Element not found. (0x490)
+
+Apr 12, 2022 20:51:29.270 NEW SESSION
+Apr 12, 2022 20:51:29.270 [2376:5744:0412/205129.257:ERROR:device_event_log_impl.cc(214)] [20:51:29.256] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Apr 12, 2022 20:51:29.356 [2376:5744:0412/205129.307:ERROR:device_event_log_impl.cc(214)] [20:51:29.307] Bluetooth: bluetooth_adapter_winrt.cc:1075 Getting Default Adapter failed.
+Apr 12, 2022 20:51:55.253 [2376:3896:0412/205155.252:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Apr 23, 2022 20:10:31.350 [2376:232:0423/201018.084:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Apr 23, 2022 20:10:38.493 [2376:5728:0423/201038.492:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Apr 24, 2022 11:01:54.69 [2376:12416:0424/110143.730:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

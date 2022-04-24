@@ -1,9 +1,0 @@
-<%
-String message=(String)session.getAttribute("message");
-if(message!=null)
-{
-	//prints
-	
-	session.removeAttribute("message");
-}
-%>
