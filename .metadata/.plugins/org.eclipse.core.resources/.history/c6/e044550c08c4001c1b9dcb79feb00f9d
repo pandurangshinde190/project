@@ -1,0 +1,38 @@
+package com.learn.servlets;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class ProductOperationServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+
+    public ProductOperationServlet() {
+        super();
+     
+    }
+    
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	
+		//Set content Type
+		response.setContentType("text/html");
+		
+		//Get An object of PrintWriter
+		PrintWriter out = response.getWriter();
+		
+		//generate response
+//		out.println("hi");
+		
+		//fetching category data
+		String categoryTitle = request.getParameter("catTitle");
+		String categoryDesc = request.getParameter("catDescription");
+		
+	}
+
+}

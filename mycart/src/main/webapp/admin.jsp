@@ -25,10 +25,23 @@ if (user == null) {
 <meta charset="ISO-8859-1">
 <title>Admin Panel</title>
 <%@include file="components/common_css_js.jsp"%>
+<style>
+.admin .card {
+	border: 1px solid #3949ab;
+}
+
+.admin .card:hover {
+	background: #e2e2e2;
+	cursor: pointer;
+}
+</style>
 </head>
 <body>
 	<%@include file="components/navbar.jsp"%>
-	<div class="container">
+	<div class="container admin">
+		<div class=contaiiner-fluid mt-3>
+			<%@include file="components/message.jsp" %>
+		</div>
 		<div class="row mt-3">
 			<!-- First col -->
 			<div class="col-md-4">
@@ -77,7 +90,7 @@ if (user == null) {
 		<div class="row mt-3">
 			<div class="col-md-6">
 				<!--Second row: first box -->
-				<div class="card">
+				<div class="card" data-toggle="modal" data-target="#add-category-modal">
 					<div class="card-body text-center">
 						<div class="container">
 							<img style="max-width: 125px" class="img-fluid rounded-circle"
@@ -90,7 +103,7 @@ if (user == null) {
 			</div>
 			<div class="col-md-6">
 				<!--Second row: second box -->
-				<div class="card">
+				<div class="card" data-toggle="modal" data-target="#add-product-modal">
 					<div class="card-body text-center">
 						<div class="container">
 							<img style="max-width: 125px" class="img-fluid rounded-circle"
@@ -103,5 +116,39 @@ if (user == null) {
 			</div>
 		</div>
 	</div>
+
+	<!--add category modal-->
+<!-- Modal -->
+<div class="modal fade" id="add-category-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header custom-bg text-white">
+        <h5 class="modal-title" id="exampleModalLabel">Fill category details</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="ProductOperationServlet" method="POST">
+        <input type="hidden" name="operation" value="addCategory">
+        	<div class="form-group">
+        	<input type="text" class="form-control" name="catTitle" placeholder="Enter Category Title" required/>
+        	</div>
+        	<div class="form-group">
+              <textarea style="height: 300px;" class="form-control" placeholder="Enter category description" name="catDescription" required></textarea>
+            </div>
+            
+            <div class="cotnainer text-center">
+        		<button class="btn btn-outline-success">Add Category</button>
+          		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+           </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+	<!--End add category modal-->
+	
+
 </body>
 </html>

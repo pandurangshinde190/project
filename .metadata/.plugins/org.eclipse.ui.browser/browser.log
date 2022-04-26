@@ -13,3 +13,5 @@ Apr 12, 2022 20:51:55.253 [2376:3896:0412/205155.252:ERROR:util.cc(126)] Can't c
 Apr 23, 2022 20:10:31.350 [2376:232:0423/201018.084:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
 Apr 23, 2022 20:10:38.493 [2376:5728:0423/201038.492:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
 Apr 24, 2022 11:01:54.69 [2376:12416:0424/110143.730:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Apr 25, 2022 22:41:33.59 [2376:11344:0425/224103.248:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+Apr 25, 2022 23:03:47.497 [2376:13348:0425/230347.276:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

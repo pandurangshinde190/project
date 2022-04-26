@@ -1,0 +1,9 @@
+.admin .card{
+border: 1px solid red;	
+}
+
+
+.custom-bg{
+	background:#3949ab!important; 
+}
+
