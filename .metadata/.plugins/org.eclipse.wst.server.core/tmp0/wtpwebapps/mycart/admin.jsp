@@ -1,5 +1,9 @@
 
 
+<%@page import="com.learn.entities.Category"%>
+<%@page import="java.util.List"%>
+<%@page import="com.learn.helper.FactoryProvider"%>
+<%@page import="com.learn.dao.CategoryDao"%>
 <%@page import="com.learn.entities.User"%>
 <%
 User user = (User) session.getAttribute("current-user");
@@ -149,6 +153,81 @@ if (user == null) {
 </div>
 	<!--End add category modal-->
 	
+		<!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+       <!--product modal-->
+
+        <!-- Modal -->
+        <div class="modal fade" id="add-product-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header custom-bg text-white">
+                        <h5 class="modal-title" id="exampleModalLabel">Product details</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!--form-->
+                        <form action="ProductOperationServlet" method="POST" enctype="multipart/form-data"> 
+                        <input type="hidden" name="operation" value="addProduct">            
+                            <!--product title-->
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Enter title of product" name="pName" required />
+                            </div>
+
+                            <!--product description-->
+                            <div class="form-group">
+                                <textarea style="height: 150px;" class="form-control" placeholder="Enter product description" name="pDesc"></textarea>
+                            </div>
+
+                            <!--product price-->
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Enter price of product" name="pPrice" required />
+                            </div>
+
+                            <!--product discount-->
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Enter product discount" name="pDiscount" required />
+                            </div>
+
+                            <!--product quantity-->
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Enter product Quantity" name="pQuantity" required />
+                            </div>
+                            <!--product category-->
+                            <% CategoryDao cdao=new CategoryDao(FactoryProvider.getFactory());
+                            	List<Category> list=cdao.getCategories();
+                            %>
+                            
+                            
+							<div class="form-group">
+                               <select name="catId" class="form-control" id="">
+                               		<% for (Category c : list) {
+                                    %>
+                                    <option value="<%= c.getCategoryId()%>"> <%= c.getCategoryTitle()%> </option>
+                                    <%}
+                                    %>
+                               </select>
+                            </div>
+
+                            <!--product file-->
+                            <div class="form-group">
+                                <label for="pPic">Select Picture of product</label>  
+                                <br>
+                                <input type="file" id="pPic" name="pPic" required />
+                            </div>
+                            <!--submit button-->
+                            <div class="container text-center">
+                                <button class="btn btn-outline-success">Add product</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </form>
+                        <!--end form-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End product modal-->
 
 </body>
 </html>

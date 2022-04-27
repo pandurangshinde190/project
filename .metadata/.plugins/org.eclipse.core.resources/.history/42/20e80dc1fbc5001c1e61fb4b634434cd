@@ -1,0 +1,27 @@
+package com.learn.dao;
+
+import org.hibernate.SessionFactory;
+
+import com.learn.entities.Product;
+
+public class ProductDao {
+	private SessionFactory factory;
+
+	public ProductDao(SessionFactory factory) {
+		super();
+		this.factory = factory;
+	}
+	
+	public boolean saveProduct(Product product)
+	{
+		try {
+			
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+}

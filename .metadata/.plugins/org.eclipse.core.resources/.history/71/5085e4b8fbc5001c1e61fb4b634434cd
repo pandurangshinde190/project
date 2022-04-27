@@ -1,0 +1,14 @@
+package com.learn.dao;
+
+import org.hibernate.SessionFactory;
+
+public class ProductDao {
+	private SessionFactory factory;
+
+	public ProductDao(SessionFactory factory) {
+		super();
+		this.factory = factory;
+	}
+	
+	
+}

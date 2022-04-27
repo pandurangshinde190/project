@@ -4,16 +4,20 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.servlet.http.Part;
 
 import com.learn.dao.CategoryDao;
+import com.learn.dao.ProductDao;
 import com.learn.entities.Category;
+import com.learn.entities.Product;
 import com.learn.helper.FactoryProvider;
 
-
+@MultipartConfig
 public class ProductOperationServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -61,6 +65,37 @@ public class ProductOperationServlet extends HttpServlet {
 		}else if(op.trim().equals("addProduct"))
 		{
 			//add product
+			String productName = request.getParameter("pName");
+			String productDesc = request.getParameter("pDesc");
+			Integer productPrice =Integer.parseInt(request.getParameter("pPrice"));
+			Integer productDisc = Integer.parseInt(request.getParameter("pDiscount"));
+			Integer productQty = Integer.parseInt(request.getParameter("pQuantity"));
+			Integer catId = Integer.parseInt(request.getParameter("catId"));
+			Part part=request.getPart("pPic");
+			
+			
+			Product product = new Product();
+			product.setpName(productName);
+			product.setpDesc(productDesc);
+			product.setpPrice(productPrice);
+			product.setpDiscount(productDisc);
+			product.setpQuantity(productQty);
+			product.setpPhoto(part.getSubmittedFileName());
+			
+			//get category by id
+			CategoryDao categoryDao=new CategoryDao(FactoryProvider.getFactory());
+			Category category = categoryDao.getCategoryById(catId);	
+			product.setCategory(category);
+			
+			//product save..
+			ProductDao productDao=new ProductDao(FactoryProvider.getFactory());
+			productDao.saveProduct(product);
+			
+			HttpSession httpSession = request.getSession();
+			httpSession.setAttribute("message", "Product Added Successfully " );
+			response.sendRedirect("admin.jsp");
+			return;
+			
 		}
 		
 
