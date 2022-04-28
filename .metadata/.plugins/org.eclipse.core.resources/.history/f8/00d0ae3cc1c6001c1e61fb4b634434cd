@@ -100,7 +100,8 @@ public class ProductOperationServlet extends HttpServlet {
 			//find out the path to upload photo
 			String path = request.getRealPath("img")+File.separator+"products"+File.separator+part.getSubmittedFileName();
 			System.out.println(path);
-					
+			
+			
 			try {
 				//File uploading
 				FileOutputStream fos=new FileOutputStream(path);
@@ -118,9 +119,9 @@ public class ProductOperationServlet extends HttpServlet {
 			{
 				e.printStackTrace();
 			}
-						
+			
+			
 			HttpSession httpSession = request.getSession();
-			httpSession.setAttribute("message", "Product is added successfully..");
 			response.sendRedirect("admin.jsp");
 			return;
 			
