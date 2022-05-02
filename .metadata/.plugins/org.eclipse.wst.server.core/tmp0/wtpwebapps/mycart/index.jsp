@@ -19,11 +19,30 @@
 </head>
 <body>
 <%@include file="components/navbar.jsp" %>
+<div class="container-fluid">
 <div class="row mt-3 mx-2">
 
 	<%
+	
+		String cat=request.getParameter("category");
+//		out.println(cat);
+		
+//		Integer cat1=Integer.valueOf(cat);
+//		out.println(cat1);
+		
+		
 		ProductDao productdao=new ProductDao(FactoryProvider.getFactory());
-		List<Product> list=productdao.getAllProducts();
+		List<Product> list=null;
+		
+		if (cat == null || cat.trim().equals("all")) {
+            list = productdao.getAllProducts();;
+
+        } else {
+
+            int cid = Integer.valueOf(cat.trim());
+            list = productdao.getAllProductsById(cid);
+
+        }
 		
 		CategoryDao categoryDao=new CategoryDao(FactoryProvider.getFactory());
 		List<Category> cList=categoryDao.getCategories();
@@ -34,12 +53,12 @@
 		<!--  <h3>Number Of Category <%= cList.size() %></h3>-->
 		
 		<div class="list-group mt-3">
- 			 <a href="#" class="list-group-item list-group-item-action active" aria-current="true">All Products</a>		
+ 			 <a href="index.jsp?category=all" class="list-group-item list-group-item-action active" aria-current="true">All Products</a>		
 				<%
 				for(Category category:cList)
 				{
 				%>	
-					<a href="#" class="list-group-item list-group-item-action"><%= category.getCategoryTitle() %></a>		
+					<a href="index.jsp?category=<%= category.getCategoryId()%>" class="list-group-item list-group-item-action"><%= category.getCategoryTitle() %></a>		
 				<% 	
 				}
 				%>
@@ -47,7 +66,7 @@
 	</div>
 	
 	<!-- Show Products -->
-	<div class="col-md-8">
+	<div class="col-md-10">
 		<!-- <h3>Number Of Products is <%= list.size() %></h3> -->
 		<!-- 
 		<% 
@@ -83,12 +102,18 @@
 						</div>
 					<%  
 						}
+					if(list.size()==0)
+					{
+						out.println("<h3>No Item In This Category</h3>");
+					}
 					%>
 				
 				 </div>
 			</div>
 		</div>
 	</div>
+</div>
+
 </div>
 </body>
 </html>
