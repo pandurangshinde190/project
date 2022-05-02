@@ -30,14 +30,7 @@ if (user == null) {
 <title>Admin Panel</title>
 <%@include file="components/common_css_js.jsp"%>
 <style>
-.admin .card {
-	border: 1px solid #3949ab;
-}
 
-.admin .card:hover {
-	background: #e2e2e2;
-	cursor: pointer;
-}
 </style>
 </head>
 <body>

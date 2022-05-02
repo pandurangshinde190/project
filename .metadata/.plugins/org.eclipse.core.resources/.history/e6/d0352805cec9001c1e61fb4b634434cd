@@ -1,0 +1,17 @@
+package com.learn.helper;
+
+public class Helper {
+		
+		public static String get10Words(String desc)
+		{
+			String[] str=desc.split(" ");
+			
+			if(str.length>10)
+			{
+				
+			}else {
+				return (desc+"...");
+			}
+		}
+
+}

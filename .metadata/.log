@@ -6,16 +6,16 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-This is a continuation of log file F:\ME_Project\project\.metadata\.bak_0.log
-Created Time: 2022-04-27 00:21:15.019
+This is a continuation of log file F:\ME_Project\project\.metadata\.bak_1.log
+Created Time: 2022-05-01 21:20:43.898
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:21:15.020
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:20:43.899
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:21:15.029
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:20:43.900
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:21:15.050
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:20:43.917
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -76,7 +76,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -92,13 +92,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:01.713
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:21:11.674
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:01.715
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:21:11.676
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:01.721
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:21:11.682
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -159,7 +159,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -175,13 +175,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:13.683
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:22:23.622
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:13.712
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:22:23.624
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:13.724
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:22:23.629
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -242,7 +242,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -258,173 +258,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:44.513
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:44.515
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:22:44.521
-!MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
-!STACK 0
-com.google.inject.ProvisionException: Unable to provision, see the following errors:
-
-1) Error injecting constructor, java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
-  at org.apache.maven.plugin.war.WarMojo.<init>(Unknown Source)
-  while locating org.apache.maven.plugin.war.WarMojo
-
-1 error
-	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
-	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
-	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
-	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
-	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
-	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
-	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
-	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
-	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
-	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
-	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
-	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
-	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
-	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
-	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getConfiguredMojo(MavenImpl.java:354)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.reflectManifestGeneration(AbstractMavenArchiverConfigurator.java:469)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:422)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:227)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator$1.build(AbstractMavenArchiverConfigurator.java:167)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:169)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:114)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:105)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
-	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
-	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance(DefaultConstructionProxyFactory.java:126)
-	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
-	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
-	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
-	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
-	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
-	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
-	... 46 more
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:23:30.671
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:23:30.674
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:23:30.683
-!MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
-!STACK 0
-com.google.inject.ProvisionException: Unable to provision, see the following errors:
-
-1) Error injecting constructor, java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
-  at org.apache.maven.plugin.war.WarMojo.<init>(Unknown Source)
-  while locating org.apache.maven.plugin.war.WarMojo
-
-1 error
-	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
-	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
-	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
-	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
-	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
-	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
-	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
-	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
-	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
-	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
-	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
-	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
-	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
-	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
-	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getConfiguredMojo(MavenImpl.java:354)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.reflectManifestGeneration(AbstractMavenArchiverConfigurator.java:469)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:422)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:227)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator$1.build(AbstractMavenArchiverConfigurator.java:167)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:169)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:114)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:105)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
-	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
-	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
-	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
-	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
-	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
-	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
-	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
-	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance(DefaultConstructionProxyFactory.java:126)
-	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
-	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
-	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
-	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
-	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
-	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
-	... 46 more
-
-!ENTRY org.eclipse.lsp4e 2 0 2022-04-27 00:23:46.632
+!ENTRY org.eclipse.lsp4e 2 0 2022-05-01 21:24:27.488
 !MESSAGE Javadoc unavailable. Failed to obtain it.
 !STACK 0
 java.lang.InterruptedException
@@ -436,13 +270,13 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:23:50.550
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:24:30.831
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:23:50.552
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:24:30.832
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:23:50.557
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:24:30.837
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -503,7 +337,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -519,13 +353,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:24:11.526
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:26:11.542
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:24:11.528
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:26:11.545
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:24:11.533
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 21:26:11.556
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -586,7 +420,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -602,13 +436,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:24:52.560
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:53:25.598
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:24:52.562
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:53:25.657
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:24:52.567
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:53:25.673
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -669,7 +503,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -685,13 +519,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:26:52.159
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:57:30.632
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:26:52.162
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:57:30.634
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:26:52.173
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:57:30.649
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -752,7 +586,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -768,13 +602,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:27:24.805
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:57:35.722
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:27:24.808
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:57:35.726
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:27:24.815
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:57:35.733
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -835,7 +669,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -851,13 +685,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:29:07.263
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:58:40.924
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:29:07.265
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:58:40.926
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:29:07.271
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:58:40.932
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -918,7 +752,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -934,13 +768,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:29:20.983
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:59:26.552
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:29:20.985
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:59:26.597
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:29:20.992
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 22:59:26.606
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1001,7 +835,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1017,13 +851,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:30:57.749
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:15:12.859
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:30:57.751
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:15:12.861
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:30:57.759
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:15:12.866
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1084,7 +918,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1100,13 +934,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:32:26.101
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:15:56.588
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:32:26.103
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:15:56.589
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:32:26.111
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:15:56.595
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1167,7 +1001,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1183,13 +1017,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:35:19.473
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:16:42.569
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:35:19.475
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:16:42.571
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:35:19.482
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:16:42.578
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1250,7 +1084,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1266,13 +1100,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:06.840
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:18:05.094
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:06.842
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:18:05.096
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:06.849
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:18:05.101
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1333,7 +1167,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1349,13 +1183,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:18.467
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:18:38.528
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:18.469
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:18:38.531
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:18.475
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:18:38.554
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1416,7 +1250,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1432,13 +1266,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:23.323
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:21:43.627
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:23.325
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:21:43.628
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 00:36:23.331
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:21:43.633
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1499,7 +1333,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor77.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1515,131 +1349,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 21:58:12.668
-!MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
-!STACK 0
-com.google.inject.ProvisionException: Unable to provision, see the following errors:
-
-1) Error injecting constructor, java.lang.ExceptionInInitializerError: Cannot access defaults field of Properties
-  at org.apache.maven.plugin.war.WarMojo.<init>(Unknown Source)
-  while locating org.apache.maven.plugin.war.WarMojo
-
-1 error
-	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
-	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
-	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
-	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
-	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
-	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
-	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
-	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
-	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
-	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
-	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
-	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
-	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
-	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
-	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getConfiguredMojo(MavenImpl.java:354)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.reflectManifestGeneration(AbstractMavenArchiverConfigurator.java:469)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:422)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:227)
-	at org.eclipse.m2e.wtp.mavenarchiver.AbstractWTPArchiverConfigurator.mavenProjectChanged(AbstractWTPArchiverConfigurator.java:56)
-	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:1040)
-	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
-	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
-	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:317)
-	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:409)
-	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:358)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1370)
-	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:357)
-	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:79)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.lang.ExceptionInInitializerError: Cannot access defaults field of Properties
-	at com.thoughtworks.xstream.converters.collections.PropertiesConverter.<clinit>(PropertiesConverter.java:46)
-	at com.thoughtworks.xstream.XStream.setupConverters(XStream.java:647)
-	at com.thoughtworks.xstream.XStream.<init>(XStream.java:445)
-	at com.thoughtworks.xstream.XStream.<init>(XStream.java:385)
-	at com.thoughtworks.xstream.XStream.<init>(XStream.java:342)
-	at org.apache.maven.plugin.war.util.WebappStructureSerializer.<clinit>(WebappStructureSerializer.java:47)
-	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
-	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance(DefaultConstructionProxyFactory.java:126)
-	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
-	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
-	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
-	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
-	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
-	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
-	... 36 more
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:24.968
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:24.975
-!MESSAGE classpath=53 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:24.985
-!MESSAGE buffering callback sts4.classpath.QpymAqmK mycart false 53
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:24.986
-!MESSAGE executing callback sts4.classpath.QpymAqmK 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:27.094
-!MESSAGE executing callback sts4.classpath.QpymAqmK FAILED
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-04-27 21:58:27.204
-!MESSAGE 
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
-	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
-	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
-	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:39.193
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:39.197
-!MESSAGE classpath=53 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:39.202
-!MESSAGE buffering callback sts4.classpath.QpymAqmK mycart false 53
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:39.203
-!MESSAGE executing callback sts4.classpath.QpymAqmK 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-27 21:58:39.265
-!MESSAGE executing callback sts4.classpath.QpymAqmK SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 21:58:48.530
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:25:35.134
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 21:58:48.551
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:25:35.136
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 21:58:48.592
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 21:58:48.605
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:25:35.160
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1700,8 +1416,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1717,25 +1432,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.lsp4e 2 0 2022-04-27 22:00:58.204
-!MESSAGE Timeout waiting for data to generate LS hover
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:08:19.195
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:26:00.557
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:08:19.209
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:26:00.561
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:08:19.229
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:26:00.574
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1796,8 +1499,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1813,13 +1515,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:10:52.794
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:27:00.191
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:10:52.796
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:27:00.193
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:10:52.801
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:27:00.200
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1880,8 +1582,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1897,25 +1598,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.lsp4e 2 0 2022-04-27 22:11:09.500
-!MESSAGE Javadoc unavailable. Failed to obtain it.
-!STACK 0
-java.lang.InterruptedException
-	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
-	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
-	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
-	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
-	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:11:41.363
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:28:55.346
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:11:41.365
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:28:55.350
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:11:41.373
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:28:55.361
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -1976,8 +1665,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -1993,13 +1681,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:26:16.134
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:29:17.765
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:26:16.137
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:29:17.767
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:26:16.146
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:29:17.772
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2060,8 +1748,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2077,13 +1764,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:32:42.450
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:46.084
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:32:42.614
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:46.086
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:32:42.620
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:46.093
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2144,8 +1831,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2161,13 +1847,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:35:07.375
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:54.134
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:35:07.376
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:54.223
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:35:07.381
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:54.240
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2228,8 +1914,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2245,13 +1930,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:35:09.611
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:56.902
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:35:09.613
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:56.904
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:35:09.618
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:30:56.910
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2312,8 +1997,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2329,13 +2013,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:42:17.136
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:32:31.616
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:42:17.144
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:32:31.618
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:42:17.150
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:32:31.624
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2396,8 +2080,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2413,13 +2096,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:50:02.722
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:34:33.908
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:50:02.762
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:34:33.910
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:50:02.787
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:34:33.915
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2480,8 +2163,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2497,13 +2179,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:55:00.360
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:35:05.313
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:55:00.362
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:35:05.315
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 22:55:00.368
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:35:05.323
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2564,8 +2246,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2581,13 +2262,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:11:20.624
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:35:34.319
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:11:20.626
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:35:34.321
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:11:20.631
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:35:34.326
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2648,8 +2329,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2665,13 +2345,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:13:24.124
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:37:03.688
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:13:24.128
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:37:03.691
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:13:24.152
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:37:03.698
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2732,8 +2412,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2749,13 +2428,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:47:08.386
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:37:40.334
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:47:08.392
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:37:40.337
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:47:08.406
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:37:40.344
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2816,8 +2495,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2833,13 +2511,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:50:59.301
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:04.991
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:50:59.303
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:04.994
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:50:59.398
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:05.000
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2900,8 +2578,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -2917,13 +2594,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:57:28.826
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:24.625
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:57:28.880
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:24.627
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:57:28.903
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:24.633
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -2984,7 +2661,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -3000,13 +2677,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:59:47.651
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:53.701
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:59:47.722
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:53.704
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-27 23:59:47.740
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:38:53.713
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -3067,7 +2744,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -3083,13 +2760,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:02:56.418
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:39:26.418
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:02:56.427
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:39:26.420
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:02:56.463
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:39:26.428
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -3150,7 +2827,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -3166,13 +2843,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:02:59.618
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:39:50.983
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:02:59.641
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:39:50.985
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:02:59.691
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:39:50.992
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -3233,7 +2910,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at jdk.internal.reflect.GeneratedConstructorAccessor91.newInstance(Unknown Source)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -3249,131 +2926,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:04:53.954
-!MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
-!STACK 0
-com.google.inject.ProvisionException: Unable to provision, see the following errors:
-
-1) Error injecting constructor, java.lang.ExceptionInInitializerError: Cannot access defaults field of Properties
-  at org.apache.maven.plugin.war.WarMojo.<init>(Unknown Source)
-  while locating org.apache.maven.plugin.war.WarMojo
-
-1 error
-	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
-	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
-	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
-	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
-	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
-	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
-	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
-	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
-	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
-	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
-	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
-	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
-	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
-	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
-	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getConfiguredMojo(MavenImpl.java:354)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.reflectManifestGeneration(AbstractMavenArchiverConfigurator.java:469)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:422)
-	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:227)
-	at org.eclipse.m2e.wtp.mavenarchiver.AbstractWTPArchiverConfigurator.mavenProjectChanged(AbstractWTPArchiverConfigurator.java:56)
-	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:1040)
-	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
-	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:991)
-	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:317)
-	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration0(ProjectConfigurationManager.java:409)
-	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$1(ProjectConfigurationManager.java:358)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
-	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
-	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1370)
-	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.updateProjectConfiguration(ProjectConfigurationManager.java:357)
-	at org.eclipse.m2e.core.ui.internal.UpdateMavenProjectJob.runInWorkspace(UpdateMavenProjectJob.java:79)
-	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-Caused by: java.lang.ExceptionInInitializerError: Cannot access defaults field of Properties
-	at com.thoughtworks.xstream.converters.collections.PropertiesConverter.<clinit>(PropertiesConverter.java:46)
-	at com.thoughtworks.xstream.XStream.setupConverters(XStream.java:647)
-	at com.thoughtworks.xstream.XStream.<init>(XStream.java:445)
-	at com.thoughtworks.xstream.XStream.<init>(XStream.java:385)
-	at com.thoughtworks.xstream.XStream.<init>(XStream.java:342)
-	at org.apache.maven.plugin.war.util.WebappStructureSerializer.<clinit>(WebappStructureSerializer.java:47)
-	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
-	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at com.google.inject.internal.DefaultConstructionProxyFactory$ReflectiveProxy.newInstance(DefaultConstructionProxyFactory.java:126)
-	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114)
-	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
-	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
-	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
-	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
-	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
-	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
-	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
-	... 36 more
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:00.587
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:00.606
-!MESSAGE classpath=53 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:00.611
-!MESSAGE buffering callback sts4.classpath.QpymAqmK mycart false 53
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:00.764
-!MESSAGE executing callback sts4.classpath.QpymAqmK 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:03.047
-!MESSAGE executing callback sts4.classpath.QpymAqmK FAILED
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-04-28 00:05:03.048
-!MESSAGE 
-!STACK 0
-java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
-	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
-	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
-	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:05.298
-!MESSAGE exists = true open = true => deleted = false
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:05.301
-!MESSAGE classpath=53 entries
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:05.303
-!MESSAGE buffering callback sts4.classpath.QpymAqmK mycart false 53
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:05.304
-!MESSAGE executing callback sts4.classpath.QpymAqmK 1 batched events
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-04-28 00:05:05.680
-!MESSAGE executing callback sts4.classpath.QpymAqmK SUCCESS [done]
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:05:12.322
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:04.833
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:05:12.338
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:04.835
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:05:12.343
-!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
-
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:05:12.366
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:04.841
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -3434,8 +2993,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -3451,13 +3009,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:16:55.311
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:19.327
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:16:55.314
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:19.330
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:16:55.324
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:19.337
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -3518,8 +3076,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -3535,13 +3092,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
 	... 46 more
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:17:10.443
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:35.813
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:17:10.446
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:35.815
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 
-!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-04-28 00:17:10.454
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-05-01 23:40:35.821
 !MESSAGE Error injecting: org.apache.maven.plugin.war.WarMojo
 !STACK 0
 com.google.inject.ProvisionException: Unable to provision, see the following errors:
@@ -3602,8 +3159,7 @@ com.google.inject.ProvisionException: Unable to provision, see the following err
 Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache.maven.plugin.war.util.WebappStructureSerializer
 	at org.apache.maven.plugin.war.AbstractWarMojo.<init>(AbstractWarMojo.java:316)
 	at org.apache.maven.plugin.war.WarMojo.<init>(WarMojo.java:49)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at jdk.internal.reflect.GeneratedConstructorAccessor120.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)

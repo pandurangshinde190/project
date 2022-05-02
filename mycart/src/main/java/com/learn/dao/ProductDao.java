@@ -1,8 +1,11 @@
 package com.learn.dao;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 
 import com.learn.entities.Product;
 
@@ -31,6 +34,16 @@ public class ProductDao {
 			f=false;
 		}
 		return f;
+	}
+	
+	//Get all products
+	public List<Product> getAllProducts()
+	{
+		Session s = this.factory.openSession();
+		Query query = s.createQuery("from Product");
+		List<Product> list = query.list();
+		return list;
+		
 	}
 	
 }

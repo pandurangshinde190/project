@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:00:01 -0700] "POST /mycart/ProductOperationServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:00:02 -0700] "GET /mycart/admin.jsp HTTP/1.1" 200 10892
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:01:13 -0700] "POST /mycart/ProductOperationServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:01:13 -0700] "GET /mycart/admin.jsp HTTP/1.1" 200 10892
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:02:55 -0700] "POST /mycart/ProductOperationServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:02:55 -0700] "GET /mycart/admin.jsp HTTP/1.1" 200 10892
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:03:55 -0700] "POST /mycart/ProductOperationServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:03:56 -0700] "GET /mycart/admin.jsp HTTP/1.1" 200 10892
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:03:56 -0700] "GET /mycart/css/style.css HTTP/1.1" 200 246
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:04:09 -0700] "GET /mycart/index.jsp HTTP/1.1" 200 6432
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:04:09 -0700] "GET /mycart/img/products/el2.jpg HTTP/1.1" 200 13589
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:04:09 -0700] "GET /mycart/img/products/lp1.jpg HTTP/1.1" 200 22387
+0:0:0:0:0:0:0:1 - - [02/May/2022:00:04:09 -0700] "GET /mycart/img/products/lp2.jpg HTTP/1.1" 200 11766
