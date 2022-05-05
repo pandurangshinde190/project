@@ -17,3 +17,11 @@
 	border: 1px solid #3949ab;
 }
 
+.discount-label{
+    font-size: 10px!important;
+    font-style: italic!important;
+    /*text-decoration: line-through!important;*/
+}
+
+
+

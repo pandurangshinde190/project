@@ -16,6 +16,12 @@
 <meta charset="UTF-8">
 <title>MyCart -Home</title>
 <%@include file="components/common_css_js.jsp" %>
+<style type="text/css">
+.product-card:hover{
+    background:#e2e2e2;
+    cursor: pointer;
+}
+</style>
 </head>
 <body>
 <%@include file="components/navbar.jsp" %>
@@ -77,7 +83,7 @@
 			}
 		%>		
 		-->	
-		
+		<!-- Product Card -->
 		<div class="mt-3">
 			<!-- Col:12 -->
 			<div class="col-md-12">
@@ -87,7 +93,7 @@
 						for(Product product: list)
 						{	
 					%>
-						<div class="card">
+						<div class="card product-card">
 							 <div class="container text-center">
 							 <img src="img/products/<%= product.getpPhoto() %>" style="max-height: 150px; max-width: 90%;width:auto;" class="card-img-top m-2" alt="...">
 							 </div>
@@ -95,9 +101,9 @@
 									<h5 class="card-title"><%= product.getpName() %></h5>
 									<p class="card-text"><%= Helper.get10Words(product.getpDesc()) %></p>
 							</div>
-							<div class="card-footer">
+							<div class="card-footer text-center">
 								<button class="btn custom-bg text-white">Add to Card</button>
-								<button class="btn btn-outline-primary ">&#8377 <%= product.getpPrice() %></button>
+								<button class="btn btn-outline-success ">&#8377 <%= product.getPriceAfterApplyingDiscount() %>/- <span class="text-secondary discount-label">&#8377; <%= product.getpPrice()%> ,<%= product.getpDiscount()%>% Off</span></button>
 							</div>
 						</div>
 					<%  
