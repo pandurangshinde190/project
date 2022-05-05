@@ -221,6 +221,6 @@ if (user == null) {
             </div>
         </div>
         <!--End product modal-->
-
+<%@include  file="components/common_modals.jsp" %>
 </body>
 </html>

@@ -65,7 +65,7 @@
 							
 							    <div class="form-group">
                                     <label for="exampleFormControlTextarea1" >Your shipping address</label>
-                                    <textarea value="<%= user.getUserAddress()%>" class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your address" rows="3"></textarea>
+                                    <textarea value="<%= user.getUserAddress() %>" class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your address" rows="3"></textarea>
                                 </div>
 
                                 <div class="container text-center">

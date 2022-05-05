@@ -49,7 +49,7 @@
 							<form action="#">
 								<div class="form-group">
                                     <label for="exampleInputEmail1">Email address</label>
-                                    <input value="<%= user.getUserEmail() %>" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <input value="<%= user.getUserEmail() %>>" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                                 </div>
                                 
@@ -65,7 +65,7 @@
 							
 							    <div class="form-group">
                                     <label for="exampleFormControlTextarea1" >Your shipping address</label>
-                                    <textarea value="<%= user.getUserAddress()%>" class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your address" rows="3"></textarea>
+                                    <textarea value="" class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your address" rows="3"></textarea>
                                 </div>
 
                                 <div class="container text-center">
