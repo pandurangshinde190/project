@@ -148,4 +148,10 @@ function showToast(content) {
 }
 
 
+function goToCheckout() {
+
+    window.location = "checkout.jsp"
+
+}
+
 
