@@ -128,7 +128,7 @@ function deleteItemFromCart(pId)
 
     updateCart();
 
-    showToast("Item is removed from cart ")
+ //   showToast("Item is removed from cart ")
 
 }
 

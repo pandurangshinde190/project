@@ -30,7 +30,6 @@ function add_to_cart(pId, pName, pPrice)
             })
 			localStorage.setItem("cart", JSON.stringify(pcart));
 			console.log("Product quantity is increased")
-			showToast(oldProduct.productName + " quantity is increased , Quantity = " + oldProduct.productQuantity)
 		}
 		else
 		{
@@ -39,7 +38,6 @@ function add_to_cart(pId, pName, pPrice)
        		pcart.push(product);
 			localStorage.setItem("cart", JSON.stringify(pcart));
 			console.log("Product is added")
-			showToast("Product is added to cart")
 		}
 	}
 	
@@ -128,7 +126,7 @@ function deleteItemFromCart(pId)
 
     updateCart();
 
-    showToast("Item is removed from cart ")
+ //   showToast("Item is removed from cart ")
 
 }
 
