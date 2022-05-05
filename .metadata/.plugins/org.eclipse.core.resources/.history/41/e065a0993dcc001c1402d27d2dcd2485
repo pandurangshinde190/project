@@ -1,0 +1,31 @@
+function add_to_card(pId,pName,pPrice)
+{
+	let cart=localStorage.getItem("card");
+	if(cart==null)
+	{
+		//no cart yet
+		let products = [];
+        let product = {productId: pId, productName: pName, productQuantity: 1, productPrice: pPrice}
+		products.push(product);
+        localStorage.setItem("cart", JSON.stringify(products));
+		
+	}else{
+		//cart already present
+		let pcart = JSON.parse(cart);
+
+        let oldProduct = pcart.find((item) => item.productId == pid)
+        console.log(oldProduct)
+
+		if(oldProduct)
+		{
+			//we have to increase the quantity
+		}else{
+			//we have add the product
+			let product = {productId: pid, productName: pname, productQuantity: 1, productPrice: price}
+            pcart.push(product)
+            localStorage.setItem("cart", JSON.stringify(pcart));
+            console.log("Product is added")
+            showToast("Product is added to cart")
+		}
+	}
+}

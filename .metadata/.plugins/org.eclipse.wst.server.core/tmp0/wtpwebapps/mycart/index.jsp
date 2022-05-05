@@ -102,7 +102,7 @@
 									<p class="card-text"><%= Helper.get10Words(product.getpDesc()) %></p>
 							</div>
 							<div class="card-footer text-center">
-								<button class="btn custom-bg text-white">Add to Card</button>
+								<button class="btn custom-bg text-white" onclick="add_to_cart(<%= product.getpId()%>, '<%= product.getpName()%>',<%= product.getPriceAfterApplyingDiscount()%>)">Add to Card</button>
 								<button class="btn btn-outline-success ">&#8377 <%= product.getPriceAfterApplyingDiscount() %>/- <span class="text-secondary discount-label">&#8377; <%= product.getpPrice()%> ,<%= product.getpDiscount()%>% Off</span></button>
 							</div>
 						</div>

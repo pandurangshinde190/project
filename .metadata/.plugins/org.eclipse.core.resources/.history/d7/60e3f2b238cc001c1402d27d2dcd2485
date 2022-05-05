@@ -1,0 +1,10 @@
+function add_to_card(pId,pName,pPrice)
+{
+	let cart=localStorage.getItem("card");
+	if(cart==null)
+	{
+		//no cart yet
+	}else{
+		//cart already present
+	}
+}

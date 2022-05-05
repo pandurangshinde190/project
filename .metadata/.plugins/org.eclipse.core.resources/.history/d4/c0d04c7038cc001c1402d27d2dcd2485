@@ -1,0 +1,4 @@
+function add_to_card(pId,pName,pPrice)
+{
+	let cart=localStorage.getItem("card");
+}
