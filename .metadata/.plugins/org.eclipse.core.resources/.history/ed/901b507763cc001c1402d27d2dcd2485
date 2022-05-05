@@ -58,7 +58,7 @@ if (user == null) {
 							<img style="max-width: 125px" class="img-fluid rounded-circle"
 								alt="user_icon" src="img/seo-and-web.png">
 						</div>
-						<h1><%= m.get("userCount")%></h1>
+						<h1>23443</h1>
 						<h1 class="text-uppercase text-muted">User</h1>
 					</div>
 				</div>

@@ -28,7 +28,7 @@ public class Helper {
         
     }
     
-    public static Map<String,Long> getCounts(SessionFactory factory)
+    public static void getCounts(SessionFactory factory)
     {
     	Session session = factory.openSession();
     	
@@ -42,7 +42,7 @@ public class Helper {
     	Long productCount = (Long)query2.list().get(0);
     	
     	Map<String, Long> map=new HashMap<String, Long>();
-    	map.put("userCount", userCount);
+    	map.put("usercount", userCount);
     	map.put("productCount", productCount);
     	
     	

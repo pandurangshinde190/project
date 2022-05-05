@@ -42,7 +42,7 @@ public class Helper {
     	Long productCount = (Long)query2.list().get(0);
     	
     	Map<String, Long> map=new HashMap<String, Long>();
-    	map.put("userCount", userCount);
+    	map.put("usercount", userCount);
     	map.put("productCount", productCount);
     	
     	
