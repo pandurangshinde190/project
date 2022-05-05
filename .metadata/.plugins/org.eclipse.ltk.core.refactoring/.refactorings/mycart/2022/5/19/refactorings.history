@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mycart/src/main/webapp/components/commom_modals.jsp&apos; to &apos;common_modals.jsp&apos;" description="Rename resource &apos;commom_modals.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/components/commom_modals.jsp" name="common_modals.jsp" stamp="1651738918460" updateReferences="true"/>
+</session>
