@@ -24,27 +24,27 @@
 						<form action="RegisterServlet" method="post">
 							<div class="form-group">
 			   				 <label for="name">User Name</label>
-			    				<input name="user_name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter here UserName">
+			    				<input name="user_name" type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter here UserName" required="required">
 			  			   </div>
 			  			   
 							<div class="form-group">
 			   				 <label for="email">User Email</label>
-			    				<input name="user_email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter here email">
+			    				<input name="user_email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter here email" required="required">
 			  			   </div> 
 			  			   
 			  			   <div class="form-group">
 			   				 <label for="password">User Password</label>
-			    				<input name="user_password" type="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Enter here passwoord">
+			    				<input name="user_password" type="password" class="form-control" id="password" aria-describedby="emailHelp" placeholder="Enter here passwoord" required="required">
 			  			   </div> 
 			  			   
 			  			   <div class="form-group">
 			   				 <label for="phone">User Phone No</label>
-			    				<input name="user_phone" type="number" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Enter here phone No">
+			    				<input name="user_phone" type="number" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Enter here phone No" required="required">
 			  			   </div> 
 			
 			  			   <div class="form-group">
 			   				 <label for="address">User Address</label>
-			    				<textarea name="user_address" style="height: 100px;" class="form-control" placeholder="Enter here address" ></textarea>
+			    				<textarea name="user_address" style="height: 100px;" class="form-control" placeholder="Enter here address" required="required"></textarea>
 			  			   </div>   			     			   
 			  			   			   
 			  			   <div class="continer text-center">
